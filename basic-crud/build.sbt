@@ -7,4 +7,7 @@ lazy val root = (project in file(".")).enablePlugins(PlayJava)
 
 scalaVersion := "2.13.10"
 
-libraryDependencies += guice
+libraryDependencies ++= Seq(
+  "org.projectlombok" % "lombok" % "1.18.26",
+  guice
+)
