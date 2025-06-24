@@ -1,5 +1,3 @@
-# Play Framework
-
 # Introduction
 
 Play framework is a Java web application framework based on the Model-View-Controller (MVC) architecture. Play’s lightweight, stateless, web-friendly architecture uses Akka and Akka Streams under the covers to provide predictable and minimal resource consumption (CPU, memory, threads). Thanks to its reactive model, applications scale naturally–both horizontally and vertically. Play includes all the components needed to build Web Applications and REST services, such as an integrated HTTP server, form handling, Cross-Site Request Forgery (CSRF) protection, a powerful routing mechanism, I18n support, and more.
